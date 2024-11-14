@@ -1,0 +1,656 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    scrollbar-width: none;
+}.body1{
+    height: 100vh;
+    width: 100%;
+}
+.welcomeinfo{
+    width: 100%;
+    height: 35px;
+    animation: coloranime 30s steps(1)  infinite;
+    text-align: center;
+}
+.container-fluid{
+    height: 70px;
+    padding-top: 20px;
+    padding-left: 10%;
+}
+.moreopt{
+    border-radius: 0px;
+    width: 300px;
+    text-align: center;
+    height: auto;
+    padding-left: 40%;
+    padding-right: 40%;
+    border: none;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.425);
+}
+.iconname{
+    height: 70px;
+    text-align: start;
+    margin-left: 10px;
+    margin-bottom: 30px;
+    display: flex;
+    flex-direction: row;
+    align-items: start;
+}
+.logo{
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-image: url("Purple Woman Beauty Salon Free Logo-photoaidcom-cropped (1).png");
+    background-size: cover;
+    box-shadow: 0 0 5px black;
+    margin-left: 50px;
+    margin-right: 10px;
+}
+.iconname h2{
+    font-family:'Courier New', Courier, monospace ;
+    font-weight: 600;
+    animation: txtcoloranime 30s steps(1)  infinite;
+}
+.box{
+    height: 100vh;
+    width: 100%;
+    background-image: url("hair-wax-stick2.jpg");
+    background-size: cover;
+    animation: anime 30s steps(1)  infinite;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    /* filter: blur(70px); */
+}
+@keyframes anime {
+    0%{
+        background-image: url("Task-19354426-1-4.png");
+        background-size: cover;
+    }
+    40%{
+        background-image: url("Task-19252123-1-1.png");
+        background-size: cover;
+    }
+    80%{
+        background-image: url("Task-19354698-1-3.png");
+        background-size: cover;
+    }
+    100%{
+        background-image: url("Task-19354426-1-4.png");
+        background-size: cover;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .box{
+        height: 50vh;
+        width: 100%;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+    .box{
+        height: 30vh;
+        width: 100%;
+    }
+  }
+  .navbarNavDropdown{
+    background-color: white;
+  }
+  .infosalon{
+    height: 50%;
+    width: 40%;
+    margin-left: 7%;
+  }
+  .infosalon h1{
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 500;
+    font-size: 4rem;
+    color: white;
+    animation: textanime 30s steps(1) infinite;
+  }
+  .infosalon p{
+    font-family:'Times New Roman', Times, serif;
+    color: white;
+    animation: textanime 30s steps(1) infinite;
+  }
+  .infosalon button{
+    height: 50px;
+    width: 170px;
+    border:none;
+    animation: btnanime 30s steps(1) infinite;
+  }
+  @keyframes textanime {
+    0%{
+        color: rgb(64, 0, 0);
+    }
+    40%{
+        color: rgb(255, 255, 255);
+    }
+    80%{
+        color: rgb(255, 255, 255);
+    }
+    100%{
+        color: rgb(64, 0, 0);
+    }
+  }
+  @keyframes btnanime {
+    0%{
+        background-color: rgb(64, 0, 0);
+        color: white;
+    }
+    40%{
+        background-color: rgb(255, 255, 255);
+        color: black;
+    }
+    80%{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+    }
+    100%{
+        background-color:  rgb(64, 0, 0);
+        color: white;
+    }
+  }
+  @media only screen and (max-width: 1000px) {
+    .infosalon h1{
+        font-size: 3rem;
+    }
+    .infosalon button{
+        height: 35px;
+        width: 100px;
+        font-size: 13px;
+    }
+  }
+  @media only screen and (max-width: 640px) {
+    .infosalon h1{
+        font-size: 1.5rem;
+    }
+    .infosalon p{
+        font-size: 0.5rem;
+    }
+    .infosalon button{
+        height: 35px;
+        width: 100px;
+        font-size: 10px;
+    }
+    .infosalon{
+        margin-top: -7%;
+    }
+  }
+  .servicebox{
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+  }
+.servicebox h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 3rem;
+}
+#serviceid{
+  animation: txtcoloranime 30s steps(1)  infinite;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}  @media only screen and (max-width: 1000px) {
+    .servicebox h1{
+        font-size: 2rem;
+    }
+  }
+  .borderinfopic1{
+    height: 600px;
+    width: 600px;
+    border: 2px solid rgba(165, 42, 42, 0.861);
+    border-radius: 50%;
+    margin-left: 2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .infopic1{
+    height: 580px;
+    width: 580px;
+    background-image: url("IMG-20241020-WA0022.jpg");
+    background-size: cover;
+    border-radius: 50%;
+  }
+  @media only screen and (max-width: 618px) {
+    .infopic1{
+        height: 290px;
+        width: 290px;
+    }
+    .borderinfopic1{
+        height: 300px;
+        width: 300px;
+        margin-left: 10%;
+    }
+  }
+
+
+  .mate-regular {
+    font-family: "Mate", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .mate-regular-italic {
+    font-family: "Mate", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  .info1{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .count{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+  }
+
+  .bestsince button{
+    transition: background-color 1s , color 1s , border 1s;
+    height: 50px;
+    width: 170px;
+    border:none;
+    background-color: transparent;
+    border: 1px solid black;
+    font-weight: 600;
+    color: black;
+  }
+  .bestsince{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 10%;
+    padding-right: 10%;
+    align-items: start;
+    text-align: start;
+  }
+  .bestsince h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+  }
+  .count h1{
+    animation: txtcoloranime 30s steps(1)  infinite;
+  }
+  @media only screen and (max-width: 1220px) {
+  #box2{
+    margin-top: 800px;
+  }
+  }
+  .bestsince button:hover{
+    background-color: white;
+    color: black;
+    border: none;
+  }
+  .programs{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+  .programs h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+  }
+  .photos{
+    max-height: 500px;
+    display: flex;
+    overflow-x: auto;
+  }
+.photos ::-webkit-scrollbar{
+    width: 0;
+}
+::-webkit-scrollbar{
+    width: 0;
+}
+  .pic{
+    height: 400px;
+    line-height: 400px;
+    min-width: 350px;
+    text-align: center;
+    margin-left: 20px;
+    border-top-left-radius: 50%;
+    border-top-right-radius: 50%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    box-shadow: inset 0 0 20px black;
+  }
+  #p1{
+    background-image: url("Task-19145498-1-2 (1).png");
+    background-size: cover;
+  }
+  #p2{
+    background-image: url("Task-19148332-2-1 (1).png");
+    background-size: cover;
+  }
+  #p3{
+    background-image: url("Task-19147862-1-1 (1).png");
+    background-size: cover;
+  }
+  #p8{
+    background-image: url("Task-19152608-1-2 (1).png");
+    background-size: cover;
+  }
+  #p5{
+    background-image: url("Task-19152886-1-4 (1).png");
+    background-size: cover;
+  }
+  #p6{
+    background-image: url("IMG_20210621_135949_625.jpg");
+    background-size: cover;
+  }
+  #p7{
+    background-image: url("Task-19193017-1-4 (1).png");
+    background-size: cover;
+  }
+  #p4{
+    background-image: url("Task-19149388-1-4 (1).png");
+    background-size: cover;
+  }
+  #p9{
+    background-image: url("IMG-20240405-WA0017.jpg");
+    background-size: cover;
+  }
+  #p10{
+    background-image: url("cropped6241640134785068585.png");
+    background-size: cover;
+  }
+  #p11{
+    background-image: url("PSX_20240403_202553-01.jpeg");
+    background-size: cover;
+  }
+  #p12{
+    background-image: url("IMG-20241020-WA0050.jpg");
+    background-size: cover;
+  }
+  #p13{
+    background-image: url("IMG-20241031-WA0018.jpg");
+    background-size: cover;
+  }
+
+/* kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkkkkkkkkkkkk
+kkkkkkkkkkkkkkkkkkkkk */
+
+.service-customer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.service{
+    height: 100vh;
+    width: 820px;
+    margin-left: 1%;
+}
+.servicepic{
+    background-image: url("Task-19193017-1-4 (1).png");
+    background-size: cover;
+    height: 100vh;
+    width: 400px;
+    margin-right: 2%;
+    border-top-left-radius: 20%;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius: 20%;
+    border-bottom-right-radius: 20%;
+    box-shadow: 20px 0px 20px black;
+}
+@media only screen and (max-width: 1000px) {
+    .service-customer{
+     flex-wrap: wrap;
+     margin-right: 1%;
+     justify-content: center;
+    }
+    .info1{
+      flex-wrap: wrap;
+      justify-content: center;
+     }
+    .servicepic{
+        margin-top: 250px;
+        width: 350px;
+        height: 80vh;
+        margin-top: 35%;
+    }
+    .infoservice{
+        margin-top: 10px;
+        width: 80%;
+        height: 100px;
+    }
+    .serviceinfo{
+        margin-left: 0px;
+        height: 100px;
+        width: 100%;
+    }
+    .container-fluid{
+      position: fixed;
+    }
+   }
+   .serviceheading{
+    height: 35%;
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.132);
+   }
+   .serviceheading h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+   }
+   .serviceinfo{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   }
+   .infoservice{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.132);
+    height: 150px;
+    width: 350px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+   }
+   @media only screen and (max-width: 410px) {
+    .infoservice{
+        margin-top: 10px;
+        width: 90%;
+        height: auto;
+    }
+    .serviceinfo{
+        margin-left: 0px;
+        height: auto;
+        width: 95%;
+    }
+    .servicepic{
+      width: 300px;
+      height: 60vh;
+      margin-top: 0%;
+    }
+   }
+   @media only screen and (max-width: 320px) {
+    .infoservice{
+        margin-top: 10px;
+        width: 70%;
+        height: 100px;
+    }
+    .serviceinfo{
+        margin-left: 0px;
+        height: 100px;
+        width: 50%;
+    }
+   }
+   .infoservice h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2rem;
+    animation: txtcoloranime 30s steps(1)  infinite;
+   }
+   .mainpricebox{
+    text-align: center;
+   }
+   .mainpricebox h1{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 2.7rem;
+   }
+   .mainpricing2{
+    height: auto;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+   }
+   .list1{
+    height: 80vh;
+    width: 600px;
+    background-color: blue;
+    margin-left: 5px;
+    margin-right: 5px;
+   }
+   @media only screen and (max-width: 1220px) {
+    .mainpricing2{
+      justify-content: center;
+    
+    }
+    }
+    @keyframes coloranime {
+      0%{
+        background: linear-gradient(90deg,rgba(255, 106, 0, 0.938), rgba(255, 255, 255, 0.742));
+        color: rgb(114, 0, 0);
+      }
+      40%{
+        background: linear-gradient(90deg,rgba(255, 66, 164, 0.861), rgba(255, 255, 255, 0.742));
+          color: rgb(99, 0, 99);
+      }
+      80%{
+        background: linear-gradient(90deg,rgba(185, 82, 136, 0.902), rgba(255, 255, 255, 0.742));
+        color: white;
+      }
+      100%{
+        background: linear-gradient(90deg,rgba(255, 106, 0, 0.938), rgba(255, 255, 255, 0.742));
+        color: rgb(114, 0, 0);
+      }
+    }
+
+    @keyframes txtcoloranime {
+      0%{
+        color: rgba(255, 106, 0, 0.938);
+      }
+      40%{
+          color: rgba(255, 66, 164, 0.861);
+      }
+      80%{
+        color: rgba(185, 82, 136, 0.902);
+      }
+      100%{
+        color: rgba(255, 106, 0, 0.938);
+      }
+    }body{
+      animation: txtcoloranime2 30s steps(1)  infinite;
+    }
+    @keyframes txtcoloranime2 {
+      0%{
+        background-color: rgba(255, 106, 0, 0.107);
+      }
+      40%{
+        background-color: rgba(255, 66, 164, 0.153);
+      }
+      80%{
+        background-color: rgba(185, 82, 135, 0.167);
+      }
+      100%{
+        background-color: rgba(255, 106, 0, 0.107);
+      }
+    }
+    @media only screen and (max-width: 990px) {
+      .navbar-nav{
+        background-color: white;
+      }
+    }
+    .fbox{
+      height: 100vh;
+      width: 100%;
+      background-image: url("Snapchat-749506712.jpg");
+      background-size: cover;
+      opacity: 0.5;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+    }
+.form{
+  height: 70%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certificatioon{
+  height: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.certificatebox
+{
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 80%;
+  flex-wrap: wrap;
+}
+.c1{
+  height: 350px;
+  border: 5px solid rgb(112, 0, 0);
+  width: 510px;
+  background-image: url("WhatsApp Image 2024-11-14 at 7.29.25 AM (1).jpeg");
+  background-size: cover;
+}
+.c2{
+  height: 350px;
+  width: 510px;
+  background-image: url("WhatsApp Image 2024-11-14 at 7.29.25 AM.jpeg");
+  background-size: cover;
+  border: 5px solid rgb(112, 0, 0);
+}
+.c3{
+  height: 350px;
+  width: 510px;
+  background-image: url("WhatsApp Image 2024-11-14 at 7.40.36 AM.jpeg");
+  background-size: cover;
+  border: 5px solid rgb(112, 0, 0);
+  margin-top: 15px;
+}
+.c4{
+  height: 350px;
+  width: 510px;
+  background-image: url("WhatsApp Image 2024-11-14 at 9.01.30 AM.jpeg");
+  background-size: cover;
+  border: 5px solid rgb(112, 0, 0);
+  margin-top: 15px;
+}
+.c1:hover,.c2:hover,.c3:hover{
+  box-shadow: 0px 0px 20px rgb(0, 0, 0);
+}
+@media only screen and (max-width: 1050px) {
+ .c1,.c2{
+  margin-bottom: 5px;
+ }
+}
+@media only screen and (max-width: 644px) {
+  .c1,.c2,.c3{
+    height: 200px;
+    width: 370px;
+  }
+ }
